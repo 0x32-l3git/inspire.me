@@ -1,0 +1,31 @@
+body {
+  background-color: #191919;
+  color: white;
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.quote {
+  margin-bottom: 2rem;
+  display: inline-block;
+  max-width: 100%;
+  word-break: break-word;
+  text-align: center; /* Add text alignment */
+}
+
+
+#new-quote {
+  display: none;
+}
+#text{
+  overflow-wrap: break-word;
+}
